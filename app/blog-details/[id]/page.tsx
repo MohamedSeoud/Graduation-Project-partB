@@ -1,7 +1,7 @@
 'use client'
 
 import RelatedPost from "@/components/Blog/RelatedPost";
-import { DataFunction } from "@/public/data/data";
+import { DataFunction } from "@/data/data";
 import Image from "next/image";
 import { useSearchParams } from 'next/navigation'
 import { redirect } from 'next/navigation'

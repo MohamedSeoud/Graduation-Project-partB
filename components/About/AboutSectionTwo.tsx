@@ -3,6 +3,7 @@ import Image from "next/image";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import image from '../../public/images/pyramids.jpg'
 
 
 
@@ -23,7 +24,7 @@ const AboutSectionTwo = () => {
               data-wow-delay=".15s"
             >
               <Image
-                src="/images/about/about-image-2.jpg"
+                src={image}
                 alt="about image"
                 fill
               />

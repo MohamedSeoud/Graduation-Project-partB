@@ -2,7 +2,7 @@
 
 import SingleBlog from "@/components/Blog/SingleBlog";
 import Breadcrumb from "@/components/Common/Breadcrumb";
-import { DataFunction } from "@/public/data/data";
+import { DataFunction } from "@/data/data";
 
 const Blog = () => {
   const kings = DataFunction()

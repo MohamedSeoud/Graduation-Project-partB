@@ -5,7 +5,7 @@ import SectionTitle from "../Common/SectionTitle";
 import SingleBlog from "./SingleBlog";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { DataFunction } from "@/public/data/data";
+import { DataFunction } from "@/data/data";
 
 const Blog = () => {
 
